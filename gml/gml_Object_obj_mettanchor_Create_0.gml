@@ -1,0 +1,16 @@
+mysprite[0] = 1857;
+mysprite[1] = 1854;
+mysprite[2] = 1855;
+mysprite[3] = 1852;
+mysprite[4] = 1856;
+mysprite[5] = 1858;
+mysprite[6] = 1850;
+mysprite[7] = 1853;
+mysprite[8] = 1851;
+j = 0;
+stayx = xstart - view_xview[0];
+stayy = ystart - view_yview[0];
+on = 1;
+image_speed = 0.2;
+thischara = 1576;
+siner = 0;

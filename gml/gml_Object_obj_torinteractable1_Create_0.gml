@@ -1,0 +1,12 @@
+dsprite = 1191;
+usprite = 1200;
+lsprite = 1196;
+rsprite = 1195;
+dtsprite = 1193;
+utsprite = 1199;
+ltsprite = 1198;
+rtsprite = 1197;
+myinteract = 0;
+facing = 1;
+direction = 180;
+talkedto = 0;

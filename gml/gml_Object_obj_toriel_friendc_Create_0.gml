@@ -1,0 +1,14 @@
+dsprite = 1193;
+usprite = 1199;
+lsprite = 1198;
+rsprite = 1197;
+dtsprite = 1193;
+utsprite = 1199;
+ltsprite = 1198;
+rtsprite = 1197;
+myinteract = 0;
+facing = 1;
+direction = 270;
+talkedto = 0;
+fun = 0;
+global.flag[430] = 0;

@@ -1,0 +1,13 @@
+if (global.inbattle == 0) {
+    if (!instance_exists(obj_choicer)) {
+        choicer = instance_create(0, 0, obj_choicer);
+        choicer.creator = id;
+        
+        if (myfont == 11) {
+            choicer.x0 += 11;
+            choicer.x += 11;
+        }
+    }
+    
+    halt = 5;
+}

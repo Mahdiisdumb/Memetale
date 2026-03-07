@@ -1,0 +1,122 @@
+.localvar 0 arguments
+
+:[0]
+push.v self.mypart1
+conv.v.i
+push.v [stacktop]self.pause
+pushi.e 1
+cmp.i.v NEQ
+bf [6]
+
+:[1]
+pushi.e 190
+conv.i.v
+push.v self.y
+pushi.e 24
+sub.i.v
+push.v self.x
+call.i instance_create(argc=3)
+pop.v.v self.dmgwriter
+push.v self.takedamage
+pushi.e 0
+cmp.i.v GT
+bf [3]
+
+:[2]
+pushi.e 100
+pop.v.i self.takedamage
+
+:[3]
+push.v self.takedamage
+pop.v.v global.damage
+push.v self.dmgwriter
+conv.v.i
+pushenv [5]
+
+:[4]
+pushglb.v global.damage
+pop.v.v self.dmg
+
+:[5]
+popenv [4]
+pushi.e 1
+push.v self.mypart1
+conv.v.i
+pop.v.i [stacktop]self.pause
+pushi.e 1675
+conv.i.v
+pushi.e 0
+conv.i.v
+pushi.e 0
+conv.i.v
+call.i instance_create(argc=3)
+pop.v.v self.osh
+push.v self.mypart1
+push.v self.osh
+conv.v.i
+pop.v.v [stacktop]self.obj
+pushi.e 51
+conv.i.v
+call.i snd_play(argc=1)
+popz.v
+pushi.e 11
+pushi.e -1
+pushi.e 8
+pop.v.i [array]self.alarm
+
+:[6]
+push.v self.sha
+pushi.e 0
+cmp.i.v EQ
+bf [8]
+
+:[7]
+push.v self.x
+pop.v.v self.sha
+
+:[8]
+push.v self.sha
+push.v self.shudder
+add.v.v
+pop.v.v self.x
+push.v self.shudder
+pushi.e 0
+cmp.i.v LT
+bf [10]
+
+:[9]
+push.v self.shudder
+pushi.e 1
+add.i.v
+neg.v
+pop.v.v self.shudder
+b [11]
+
+:[10]
+push.v self.shudder
+neg.v
+pop.v.v self.shudder
+
+:[11]
+push.v self.shudder
+pushi.e 0
+cmp.i.v EQ
+bf [13]
+
+:[12]
+pushi.e 0
+pop.v.i self.sha
+pushi.e 2
+pushi.e -5
+push.v self.myself
+conv.v.i
+pop.v.i [array]global.hurtanim
+exit.i
+
+:[13]
+pushi.e 2
+pushi.e -1
+pushi.e 3
+pop.v.i [array]self.alarm
+
+:[end]

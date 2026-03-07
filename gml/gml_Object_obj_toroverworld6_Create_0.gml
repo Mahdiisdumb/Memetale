@@ -1,0 +1,16 @@
+scr_depth(0, 0, 0, 0, 0);
+t = 0;
+image_speed = 0;
+dsprite = 1191;
+usprite = 1200;
+lsprite = 1196;
+rsprite = 1195;
+dtsprite = 1193;
+utsprite = 1199;
+ltsprite = 1198;
+rtsprite = 1197;
+myinteract = 0;
+facing = 0;
+conversation = 0;
+direction = 0;
+path_start(path_torielwalk5, 0, path_action_stop, 1);

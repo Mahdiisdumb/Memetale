@@ -1,0 +1,15 @@
+scr_depth(0, 0, 0, 0, 0);
+image_speed = 0;
+dsprite = 1494;
+usprite = 1502;
+lsprite = 1504;
+rsprite = 1506;
+dtsprite = 1497;
+utsprite = 1503;
+ltsprite = 1505;
+rtsprite = 1507;
+myinteract = 0;
+facing = 0;
+fun = 0;
+npcdir = 0;
+d = 0;

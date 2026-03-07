@@ -1,0 +1,13 @@
+dsprite = 1445;
+usprite = 1452;
+lsprite = 1457;
+rsprite = 1453;
+dtsprite = 1445;
+utsprite = 1452;
+ltsprite = 1457;
+rtsprite = 1453;
+myinteract = 0;
+facing = 1;
+direction = 270;
+talkedto = 0;
+fun = 0;

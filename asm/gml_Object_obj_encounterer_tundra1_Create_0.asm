@@ -1,0 +1,43 @@
+.localvar 0 arguments
+
+:[0]
+pushi.e 0
+pop.v.i self.alldead
+pushi.e 0
+pop.v.i global.encounter
+pushi.e 203
+conv.i.v
+pushi.e 16
+conv.i.v
+pushi.e 30
+conv.i.v
+pushi.e 120
+conv.i.v
+pushi.e 105
+conv.i.v
+call.i script_execute(argc=5)
+popz.v
+pushi.e -5
+pushi.e 203
+push.v [array]global.flag
+pushi.e 0
+cmp.i.v EQ
+bf [2]
+
+:[1]
+pushglb.v global.plot
+pushi.e 100
+cmp.i.v GT
+b [3]
+
+:[2]
+push.e 0
+
+:[3]
+bf [end]
+
+:[4]
+call.i instance_destroy(argc=0)
+popz.v
+
+:[end]

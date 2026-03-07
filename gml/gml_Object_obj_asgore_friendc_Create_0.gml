@@ -1,0 +1,15 @@
+dsprite = 2008;
+usprite = 2007;
+lsprite = 2001;
+rsprite = 2002;
+dtsprite = 2008;
+utsprite = 2007;
+ltsprite = 2001;
+rtsprite = 2002;
+myinteract = 0;
+facing = 1;
+direction = 270;
+talkedto = 0;
+fun = 0;
+global.flag[430] = 0;
+global.flag[390] = 0;

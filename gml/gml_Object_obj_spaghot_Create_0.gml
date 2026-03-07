@@ -1,0 +1,11 @@
+level = 0;
+levelpic[1] = 1597;
+levelpic[2] = 1598;
+levelpic[3] = 1599;
+levelpic[4] = 1600;
+levelpic[5] = 1601;
+levelpic[6] = 1602;
+levelpic[7] = 1603;
+levelpic[8] = 1604;
+levelpic[9] = 1604;
+image_speed = 0.334;

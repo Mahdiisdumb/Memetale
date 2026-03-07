@@ -1,0 +1,11 @@
+.localvar 0 arguments
+
+:[0]
+pushi.e 4
+pop.v.i self.lefter
+pushi.e 9
+pushi.e -1
+pushi.e 1
+pop.v.i [array]self.alarm
+
+:[end]

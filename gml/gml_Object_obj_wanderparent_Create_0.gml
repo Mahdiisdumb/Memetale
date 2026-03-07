@@ -1,0 +1,14 @@
+scr_depth(0, 0, 0, 0, 0);
+image_speed = 0;
+dsprite = 1175;
+usprite = 1180;
+lsprite = 1176;
+rsprite = 1177;
+dtsprite = 1182;
+utsprite = 1181;
+ltsprite = 1179;
+rtsprite = 1178;
+script_execute(scr_npcsetup, 2);
+movementalarm[0] = 20;
+movementalarm[1] = -1;
+memoryispeed = 0;

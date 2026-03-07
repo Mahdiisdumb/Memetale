@@ -1,0 +1,15 @@
+scr_depth(0, 0, 0, 0, 0);
+image_speed = 0;
+dsprite = 2003;
+usprite = 2006;
+lsprite = 1999;
+rsprite = 2000;
+dtsprite = 2008;
+utsprite = 2007;
+ltsprite = 2001;
+rtsprite = 2002;
+myinteract = 0;
+facing = 0;
+fun = 0;
+npcdir = 0;
+d = 0;

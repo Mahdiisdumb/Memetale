@@ -1,0 +1,7 @@
+dmg = 9;
+image_alpha = 0;
+direction = 180;
+image_angle = 180;
+fade = 0;
+snd_play(28);
+increase = 16;

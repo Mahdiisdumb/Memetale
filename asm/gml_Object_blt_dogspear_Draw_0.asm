@@ -1,0 +1,19 @@
+.localvar 0 arguments
+
+:[0]
+call.i draw_self_border(argc=0)
+popz.v
+pushglb.v global.turntimer
+pushi.e 1
+cmp.i.v LT
+bf [end]
+
+:[1]
+pushi.e -1
+pop.v.i global.turntimer
+pushi.e 3
+pop.v.i global.mnfight
+call.i instance_destroy(argc=0)
+popz.v
+
+:[end]

@@ -1,0 +1,15 @@
+dsprite = 1733;
+usprite = 1743;
+lsprite = 1740;
+rsprite = 1739;
+dtsprite = 1733;
+utsprite = 1743;
+ltsprite = 1740;
+rtsprite = 1739;
+myinteract = 0;
+facing = 1;
+direction = 270;
+talkedto = 0;
+fun = 0;
+global.flag[430] = 0;
+global.flag[390] = 0;
